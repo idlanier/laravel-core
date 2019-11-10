@@ -1,0 +1,23 @@
+{
+    "name": "atomic/laravel-core",
+    "description": "PHP Laravel Core Library",
+    "type": "library",
+    "license": "proprietary",
+    "authors": [
+        {
+            "name": "Didi",
+            "email": "reinaldi@atomic.id"
+        }
+    ], 
+    "autoload": {
+    	"psr-4": {
+    		"Atomic\\LaravelCore\\" : "",
+    	}
+        
+    },
+    "require-dev": {
+    	"phpunit/phpunit": "~4.0"
+    },
+    "minimum-stability": "dev",
+    "version": "1.0.0"
+}
